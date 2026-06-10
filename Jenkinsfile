@@ -3,7 +3,7 @@ pipeline {
     
     environment {
         // ⚠️ 본인의 Docker Hub 계정명으로 변경하세요!
-        DOCKERHUB_USER = 'your_dockerhub_username' 
+        DOCKERHUB_USER = 'aprkunni'
         IMAGE_NAME     = 'my-app'
         IMAGE_TAG      = "${env.BUILD_NUMBER}" // 빌드 번호를 태그로 사용 (예: my-app:1)
     }
